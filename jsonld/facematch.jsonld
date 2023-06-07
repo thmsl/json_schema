@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "facematch": {
+        "@id": "https://raw.githubusercontent.com/thmsl/json_schema/main/jsonld/facematch.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/thmsl/json_schema/main/vocab/facematch.md",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "result": {
+            "@id": "vocab:result",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
